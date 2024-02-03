@@ -1,0 +1,47 @@
+.aboutvlab{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    margin: auto;
+    font-size: 15px;
+}
+.navbar{
+    flex-direction: column;
+    margin: 2px;
+}
+
+.navItems li {
+    padding: 0px;
+    margin: 0px;
+}
+.navItems li a {
+    padding: 2px;
+    font-size: 10px;
+}
+
+.home-title{
+    font-size: 25px;
+}
+.home.image img{
+    width:100px;
+}
+
+.experiment-btn{
+    margin: 10px;
+    padding:5px 10px;
+    font-size: 15px;
+}
+
+.heading{
+    font-size: 25px;
+}
+
+.ans1,.ans2,.ans3{
+    margin: 5%;
+    width: auto;
+}
+
+.department{
+    width: 80%;
+}

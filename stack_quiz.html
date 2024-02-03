@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="stack_quiz.css">
+
+
+</head>
+
+<body>
+    
+    <!-- nav bar -->
+    <div class="navbar-div" >
+        <nav class="navbar">
+            <div class="title">
+              
+                Data Structure Virtual Lab
+               
+            </div>
+
+            <!-- navigation menu -->
+            <ul class="navItems">
+                <li class="navitem1"><a href="Landing.html">Home</a></li>
+                <li class="navitem2"><a href="Landing.html#aboutvlab">About Virtual Lab</a></li>
+                <li class="navitem3"><a href="Landing.html#section-department">Department</a></li>
+                <li class="navitem4"><a href="">Experiment</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <h2 class="heading">Quiz</h2>
+
+
+     <!-- block with experiment setup and other options like prerequistes n all -->
+    <div class="experiment-field">
+
+        <!-- experiment content -->
+        <div class="experiment-content">
+            <ul class="vertical">
+
+                <a href="stack_intro.html"><li class="ele" id="ele-1">Introduction</li></a>
+
+                <a href="stack_theory.html"><li class="ele" id="ele-2">Theory</li></a>
+
+                <a href="stack_algorithm.html"><li class="ele" id="ele-3">Algorithm</li></a>
+
+                <a href="stack_simulator.html"><li class="ele" id="ele-4">Simulator</a></li></a>
+                
+                <a href="stack_quiz.html"><li class="ele" id="ele-6">Quiz Test</li></a>
+
+            </ul>
+        </div>
+
+        <!-- main experiment setup -->
+        <div class="container">
+            <div>
+                <h4>Q1. What is a stack?</h4>
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question1"class="option" value="a">
+                    </div>
+                    <div class="co" > A non-linear data structure</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question1"class="option" value="b">
+                    </div>
+                    <div class="co" > A linear data structure with FIFO (First-In-First-Out) order</div>
+                 </div>
+
+                 <div class="qa_ans_row" class="cd1">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question1"class="option" value="c" id="correct1">
+                    </div>
+                    <div class="co" id="co1">A linear data structure with LIFO (Last-In-First-Out) order</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question1"class="option" value="d">
+                    </div>
+                    <div class="co"> A data structure used for searching</div>
+                 </div>
+
+                
+
+            </div>
+            <div>
+                <h4>Q2.  Which of the following operations is not performed on a stack?</h4>
+                
+                <div class="qa_ans_row" class="cd2">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question2"class="option" value="a" id="correct2">
+                    </div>
+                    <div class="co" id="co2"> Insert</div>
+                 </div>
+
+                <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question2"class="option" value="b">
+                    </div>
+                    <div class="co"> Pop</div>
+                 </div>
+
+                <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question2"class="option" value="c">
+                    </div>
+                    <div class="co"> Push</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question2"class="option" value="d">
+                    </div>
+                    <div class="co">Peek</div>
+                 </div>
+            </div>
+            <div>    
+                
+                 <h4> Q3.  In a stack, where is the new element added during the push operation?</h4>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question3"class="option" value="a">
+                    </div>
+                    <div class="co"> Rear</div>
+                 </div>
+                
+                 <div class="qa_ans_row" class="cd3">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question3"class="option" value="b" id="correct3">
+                    </div>
+                    <div class="co" id="co3">  Top</div>
+                 </div>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question3"class="option" value="c">
+                    </div>
+                    <div class="co"> Middle</div>
+                 </div>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question3"class="option" value="d">
+                    </div>
+                    <div class="co"> Front</div>
+                 </div>
+
+            </div>
+
+            <div>
+                <h4> Q4. What happens when you try to pop an element from an empty stack?</h4>
+                
+                <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question4"class="option" value="a">
+                    </div>
+                    <div class="co"> Stack overflow occurs</div>
+                 </div>
+
+                <div class="qa_ans_row" class="cd4">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question4"class="option" value="b" id="correct4">
+                    </div>
+                    <div class="co" id="co4"> Stack underflow occurs</div>
+                 </div>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question4"class="option" value="c">
+                    </div>
+                    <div class="co"> Stack becomes full</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question4"class="option" value="d">
+                    </div>
+                    <div class="co">  Stack remains unchanged</div>
+                 </div>
+
+            </div>   
+
+            <div>
+                <h4> Q5. Which of the following data structures can be efficiently implemented using a stack?</h4>
+                
+                <div class="qa_ans_row" class="cd   5">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question5"class="option" value="a" id="correct5">
+                    </div>
+                    <div class="co" id="co5"> Queue</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question5"class="option" value="b">
+                    </div>
+                    <div class="co"> Linked List</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question5"class="option" value="c">
+                    </div>
+                    <div class="co"> Tree</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question5"class="option" value="d">
+                    </div>
+                    <div class="co">  All of the above</div>
+                 </div>
+            </div>
+
+            <div>   
+                <h4>Q6. Which of the following algorithms uses a stack for its implementation?
+                </h4>
+                <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question6"class="option" value="a">
+                    </div>
+                    <div class="co"> Dijkstra's Algorithm</div>
+                 </div>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question6"class="option" value="b">
+                    </div>
+                    <div class="co">  Breadth-First Search (BFS)</div>
+                 </div>
+                
+                 <div class="qa_ans_row" class="cd6">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question6"class="option" value="c" id="correct6">
+                    </div>
+                    <div class="co" id="co6">  Depth-First Search (DFS)</div>
+                 </div>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question6"class="option" value="d">
+                    </div>
+                    <div class="co"> Bellman-Ford Algorithm</div>
+                 </div>
+            
+            </div>
+            <div>
+
+                <h4>Q7. What is the time complexity of the push and pop operations in a stack implemented using an array?
+                </h4>
+                <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question7"class="option" value="a">
+                    </div>
+                    <div class="co"> O(1) for push and O(n) for pop</div>
+                 </div>
+                
+                 <div class="qa_ans_row" class="cd7">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question7"class="option" value="b" id="correct7">
+                    </div>
+                    <div class="co" id="co7">  O(1) for both push and pop</div>
+                 </div>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question7"class="option" value="c">
+                    </div>
+                    <div class="co">  O(n) for both push and pop</div>
+                 </div>
+                
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question7"class="option" value="d">
+                    </div>
+                    <div class="co"> O(n) for push and O(1) for pop</div>
+                 </div>
+
+            </div>
+            
+            <div>
+                <h4>Q8. Which of the following is an example of an application where a stack is used?</h4>
+                
+                <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question8"class="option" value="a">
+                    </div>
+                    <div class="co"> Calculating Fibonacci series</div>
+                 </div>
+
+                <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question8"class="option" value="b">
+                    </div>
+                    <div class="co"> Breadth-First Search (BFS)</div>
+                 </div>
+
+                 <div class="qa_ans_row">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question8"class="option" value="c">
+                    </div>
+                    <div class="co"> Finding the shortest path in a graph</div>
+                 </div>
+
+                 <div class="qa_ans_row" class="cd8">
+                    <div style="width: 10%;">
+                        <input type="radio" name="question8"class="option" value="d" id="correct8">
+                    </div>
+                    <div class="co" id="co8">Undo mechanism in text editors</div>
+                 </div>
+            </div>    
+                
+            
+            <div class="sub">
+                <input type="submit" class="submitButton" value="submit" onclick="result()">
+            </div>
+
+            <div class="score">
+                <h3>YOUR SCORE IS :</h3>
+            </div>
+
+        </div>
+    
+    <script src="stack_quiz.js"></script>
+</body>
+
+</html>

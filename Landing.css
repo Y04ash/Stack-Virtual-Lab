@@ -1,0 +1,347 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+body{
+    width:100vw;
+    height:100vh;
+}
+
+.navbar{
+    
+    display: flex;
+    width: 100%;
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.title{
+    width: 40%;
+    font-size: 25px;
+    font-weight:400 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border:2px solid #fff;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+
+
+@keyframes slide-right{
+    from{
+        opacity: 0;
+        /* top:50px */
+    }
+    to{
+        opacity: 1;
+        /* top:100px */
+    }
+}
+.navItems
+{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li{
+    padding:5px 20px;
+    list-style:  none;
+}
+.navItems a{
+    
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    margin: 2px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+    
+}
+.navitem4 a{
+    background-color: aliceblue;
+    color: black;
+    text-shadow: none;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.navItems a:hover{
+    background-color: rgba(248, 248, 248,0.5);
+    cursor: pointer;
+}
+
+.home{
+    position: relative;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    height: 80%;
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+    font-family: fantasy;
+  
+}
+
+.home-title{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    width:50%;
+    font-size: 4rem;
+    padding: 1.2rem;
+    color: azure;
+    animation: slide-right ease 3s;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4)
+}
+
+.experiment-btn
+{
+    margin: 2em;
+    padding: 1em 2.5em;
+    border-radius: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.4);
+    border:none;
+    font-family: sans-serif;
+    
+
+}
+
+.experiment-btn a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.experiment-btn:hover{
+    cursor: pointer;
+    /* box-shadow: 5px 4px  black */
+    background-color: lightgray
+}
+.home-image{
+    /* margin: 30px 20px; */
+    padding: 20px 50px;
+    position: relative;
+    width:50%;
+    animation: slide-right ease 3s;
+    height: 70%;
+    /* border-radius: 20%; */
+
+
+}
+
+
+.heading
+{
+    /* margin: 30px; */
+    margin-top: 20px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(71, 63, 63);
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.aboutvlab
+{
+    background-color:  radial-gradient(circle at 1.8% 4.8%, rgb(17, 23, 58) 0%, rgb(58, 85, 148) 90%);
+    /* width: 80%; */
+    margin:auto;
+    border-radius: 15px;
+    /* opacity: ; */
+    display: flex;
+
+}
+
+.ans1,.ans2,.ans3{
+    /* display: flex; */
+    border: 3px solid black;
+    border-radius: 20px;
+    margin:3em 1em;
+    color: black;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+    background-color: rgb(195, 195, 195);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    width: 33.33%;
+    height: 400px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+
+    overflow: hidden;
+}
+
+
+.ans1:hover{
+    
+    cursor: pointer;
+    
+}
+.ans2:hover{
+    
+    cursor: pointer;
+}
+.ans3:hover{
+    
+    cursor: pointer;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border-bottom: 2px solid black;
+    /* margin: 5px; */
+}
+.ans1Text p{
+    margin-top: 1em;
+}
+.ans1Text{
+    /* display: flex; */
+    text-align: center;
+    margin-top:1em ;
+    width:100%;
+    position: relative;
+    transition: all ease 0.8s;
+    overflow: hidden; 
+    bottom: 100px; 
+    overflow: hidden; 
+    color: #fff;
+
+}
+
+.ans1:hover  .ans1Text{
+    visibility:visible;
+    opacity: 1;
+    background-color: rgba(27,27,27,0.3);
+    color: #fff;
+    bottom: 265px;
+ } 
+.ans1Img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.ans2Text p{
+    margin-top: 1em;
+}
+.ans2Text{
+    /* display: flex; */
+    text-align: center;
+    margin-top:1em ;
+    width:100%;
+    position: relative;
+    transition: all ease 0.8s;
+    overflow: hidden; 
+    bottom: 100px; 
+    overflow: hidden; 
+    color: #fff;
+
+}
+
+.ans2:hover  .ans2Text{
+    visibility:visible;
+    opacity: 1;
+    background-color: rgba(27,27,27,0.3);
+    color: #fff;
+    bottom: 265px;
+ }
+.ans2Img{
+    width: 100%;
+    height: 50%;
+}
+
+
+.ans3Text p{
+    margin-top: 1em;
+}
+.ans3Text{
+    /* display: flex; */
+    text-align: center;
+    margin-top:1em ;
+    width:100%;
+    position: relative;
+    transition: all ease 0.8s;
+    overflow: hidden; 
+    bottom: 100px; 
+    overflow: hidden; 
+    color: #fff;
+
+}
+
+.ans3:hover  .ans3Text{
+    visibility:visible;
+    opacity: 1;
+    background-color: rgba(27,27,27,0.3);
+    color: #fff;
+    bottom: 230px;
+ }
+.ans3Img{
+    width: 100%;
+    height: 50%;
+    
+}
+.highlight{
+    text-decoration: underline;
+    font-size:2em  ;
+}
+
+.department{
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius:  3rem;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.depheading1{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 35px;
+    color:#b7202e;
+}
+.depheading2{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(128, 128, 128);
+}
+
+.department p{
+    padding: 2rem 2rem;
+    font-size: large;
+    font-weight: 700;
+}
+
+.bottom{
+    background-color: rgba(0, 0, 0, 0.566);
+    color: #fff;
+    text-align: center;
+
+}
+
+.bottom h4{
+    padding: 1rem;
+    font-size: 20px;
+}

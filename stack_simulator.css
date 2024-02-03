@@ -1,0 +1,254 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+
+body{
+    width:100vw;
+    height:100vh;
+}
+
+.navbar{
+    
+    display: flex;
+    width: 100%;
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.title{
+    width: 40%;
+    font-size: 25px;
+    font-weight:400 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border:2px solid #fff;
+    border-radius: 7px;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+
+.navItems
+{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar li{
+    padding:5px 20px;
+    list-style:  none;
+}
+.navItems a{
+    
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    margin: 2px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+    
+}
+.navitem4 a{
+    background-color: aliceblue;
+    color: black;
+    text-shadow: none;
+    box-shadow: inset 10px 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.navItems a:hover{
+    background-color: rgba(248, 248, 248,0.5);
+    cursor: pointer;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.experiment-field{
+    font-family: sans-serif;
+    width:90%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    margin-top: 10px;
+}
+
+.experiment-content{
+    width: 20%;
+}
+.vertical{
+    width: 100%;
+    border: 4px solid rgb(82, 87, 239);
+    background: radial-gradient(circle at 10% 20%, rgb(59, 149, 237) 0%, rgb(7, 91, 173) 90%);
+    border-radius: 20px;
+}
+
+ a{
+    
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    
+    /* background: radial-gradient(circle at 10% 20%, rgb(239, 246, 249) 0%, rgb(206, 239, 253) 90%); */
+    transition:all ease 0.5s
+}
+.ele {
+    
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    color:black;
+    text-align: center;
+    border-radius: 15px;
+    background: radial-gradient(circle at 10% 20%, rgb(59, 149, 237) 0%, rgb(19, 124, 228) 90%);  ;
+    
+    transition: all ease 1s;
+    border-bottom: 1px solid black;
+    width: 92%;
+     padding: 30px 2px;
+     margin: 7px 7px;
+   
+
+}
+.vertical li:hover{
+    background: #fff;
+}
+.vertical  li:hover a{
+    cursor: pointer;
+    padding-left:20px;
+    /* transform: translateX(5px); */
+    
+    color:black;
+    /* transform: scale(1.1); */
+}
+
+
+
+.container {
+    margin-left: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(50, 64, 219);
+    display: flex;
+    width:80%;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.input-field {
+    position: relative;
+    /* border: 3px solid red; */
+    width: 100%;
+    text-align: center;
+   
+}
+
+
+.input-field p{
+    
+    font-size: 20px;
+    padding-top: 0.5rem;
+}
+
+.error{
+    position: relative;
+    font-size: 1.rem;
+    width: 80rem;
+    margin: 2rem 4rem;
+    
+    padding: 1rem 2rem;
+    top: 3%;
+
+}
+
+.input{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    top: 15%;
+    font-size: 1.5rem;
+    border: 3px solid grey;
+    border-radius: 0.7rem;
+    
+}
+
+.buttons{
+    position: relative;
+    display:flex;
+    top: 25%;
+    width: 65%;
+    margin: auto;
+    
+}
+.push,.pop,.clear{
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    background-color: rgba(110, 182, 227, 0.539);
+    box-shadow: 2px 2px 2px black;
+    font-weight: 600;
+    
+
+}
+
+.clear:hover{
+    cursor: pointer;
+    background-color: rgba(0, 162, 255, 0.573);
+    transform: scale(0.9);
+}
+.pop:hover{
+    cursor: pointer;
+    background-color: rgba(0, 162, 255, 0.573);
+    transform: scale(0.9);
+}
+.push:hover{
+    cursor: pointer;
+    background-color: rgba(0, 162, 255, 0.573);
+    transform: scale(0.9);
+}
+.canvas-field {
+    /* border: 3px solid green; */
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.canvas{
+    position: absolute;
+    visibility: visible;
+    /* top: 100px;
+    left: 100px; */
+    width: 450px;
+    height: 393px;
+    /* width: 35%;
+    height: 70%; */
+   
+    /* background-color: rgba(255, 0, 179, 0.363); */
+
+
+    /* overflow-clip-margin: content-box; */
+    overflow: clip;
+
+    display: inline-block;
+    vertical-align: baseline;
+}    
